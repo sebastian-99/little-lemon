@@ -1,0 +1,37 @@
+.calendar {
+  width: fit-content !important;
+  border: 1px solid #e0e0e0;
+}
+
+.tiles {
+  border: 1px solid #e0e0e0 !important; /* Bordes entre los días */
+  text-align: center !important; /* Centra el texto */
+  padding: 10px !important;
+}
+
+.tile-current {
+  color: transparent;
+  background-color: #fff;
+  border: 1px solid #e0e0e0 !important; /* Bordes entre los días */
+  text-align: center !important; /* Centra el texto */
+  padding: 10px !important;
+}
+
+.circle-today {
+  display: flex;
+  flex-direction: column; /* Muestra el número y la etiqueta verticalmente */
+  align-items: center; /* Centra los elementos */
+  justify-content: center; /* Centra el contenido */
+  background-color: #495e57; /* Fondo azul */
+  color: white; /* Texto blanco */
+  width: 40px; /* Tamaño del círculo */
+  height: 40px; /* Tamaño del círculo */
+  border-radius: 50%; /* Forma circular */
+  font-weight: bold; /* Resalta el texto */
+  margin: auto; /* Centra el círculo dentro de la celda */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.circle-today .label {
+  color: #fff; /* Color de la etiqueta */
+}
